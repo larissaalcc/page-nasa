@@ -1,0 +1,99 @@
+:root{
+    --color: #ff6734;
+    --white: #fff;
+    --dg:darkgray
+    --twitter:  hsl(207, 93%, 46%);
+    --fb:hsl(221, 89%, 41%);
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body{
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/bg.jpg) no-repeat;
+      background-size: cover;
+      background: url ('../images/bg.jpg') center center no-repeat fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+  }                                                                                                                                                                                
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-right:8%;
+  }
+  nav ul{
+    flex: 1;
+    text-align: right;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 15px 25px;
+    }
+    nav ul li a{
+        color:#fff;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    nav ul li a:hover{
+        color: #FF6347;
+    }
+  #logo{
+    margin-left:8%;
+  }
+  .heading{
+    margin-top:2%;
+    text-align:left;
+    margin-left:10%;
+    }
+  #section{
+    color:white;
+    margin-bottom:2%;
+    background: rgba(0, 0, 0, 0.8);
+    padding:1.5%;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  #section_content {
+    margin-top: 10px;
+  }
+  .content a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 17px;
+  }
+  .content a:hover{
+    color:#FF6347
+  }
+  span {
+    color: #fff;
+  }
+  #footer{
+    
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+    background: rgb(0, 0, 0);
+    width:auto;
+    height:10rem;
+    font-size:15px;
+    padding-left:2.5%;
+    opacity: 85%;
+    
+    
+    
+  }
