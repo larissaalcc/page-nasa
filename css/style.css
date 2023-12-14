@@ -70,6 +70,9 @@
   #section_content {
     margin-top: 10px;
   }
+  .content{
+    margin-left: 5%;
+  }
   .content a{
     text-decoration: none;
     color:#fff;
@@ -82,6 +85,7 @@
     color: #fff;
   }
   footer {
+    margin-top: 40%;
     background-color: rgba(0,0,0,0.6);
     color: #fff;
     text-align: center;
@@ -128,7 +132,6 @@ footer a:hover {
 }
 
 #img3{
-  
   float:left;
   padding-left: 1%;
   padding-right: 1%;
@@ -143,14 +146,12 @@ footer a:hover {
 
 #img4{
   float: left;
-  padding-left: 1%;
-  padding-left:1%;
   padding-right: 1%;
-  font-family: Arial, Helvetica, sans-serif;
+    
 }
  
 #img4_content{
   color: white;
   padding-left: 1%;
-  margin-top: 30%;
+  margin-top: 1%;
 }
